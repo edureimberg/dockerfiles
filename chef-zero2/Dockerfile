@@ -9,3 +9,4 @@ RUN \curl -sSL https://get.rvm.io | bash -s stable
 RUN /bin/bash -l -c "source /etc/profile.d/rvm.sh"
 RUN /bin/bash -l -c "rvm install 2.2.0"
 RUN /bin/bash -l -c "gem install knife-solo"
+RUN echo "source /etc/profile.d/rvm.sh" >> ~/.bashrc
