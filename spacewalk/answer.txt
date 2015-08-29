@@ -1,0 +1,16 @@
+admin-email = eduardo@vagas.com.br
+ssl-set-org = Vagas Tecnologia
+ssl-set-org-unit = spacewalk
+ssl-set-city = Sao Paulo
+ssl-set-state = Sao Paulo
+ssl-set-country = BR
+ssl-password = spacewalk
+ssl-set-email = eduardo@vagas.com.br
+ssl-config-sslvhost = Y
+db-backend=postgresql
+db-name=spaceschema
+db-user=spaceuser
+db-password=spacepw
+db-host=spacewalkdb
+db-port=5432
+enable-tftp=Y

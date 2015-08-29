@@ -1,0 +1,15 @@
+spacewalkweb:
+  build: .
+  hostname: spacewalkweb
+  expose:
+    - 80
+    - 443
+  links:
+    - spacewalkdb
+  command: /root/start_spacewalk.sh
+
+spacewalkdb:
+  build: banco/.
+  hostname: spacewalkdb
+  expose:
+    - 5432
