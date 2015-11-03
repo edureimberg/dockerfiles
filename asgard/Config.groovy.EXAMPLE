@@ -1,0 +1,12 @@
+grails {
+        awsAccounts=['YourAccountIDasDigitalNumber']
+        awsAccountNames=['YourAccountIDasDigitalNumber':'YourAccountName']
+}
+secret {
+        accessId='YourAccessID'
+        secretKey='YourAccessSecretKey'
+}
+cloud {
+        accountName='YourAccountName'
+        publicResourceAccounts=['amazon']
+}
