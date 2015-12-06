@@ -1,0 +1,9 @@
+db:
+  build: banco/.
+
+web:
+  build: web/.
+  links: 
+  - db
+  volumes: 
+  - ./wordpress:/var/www/
