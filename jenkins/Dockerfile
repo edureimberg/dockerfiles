@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER Eduardo Reimberg "eduardo.reimberg@gmail.com"
-ENV UPDATE 17-08-2016
+ENV UPDATE 23-01-2017
 RUN apt-get update
 RUN apt-get -y install wget
 RUN wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | apt-key add -
